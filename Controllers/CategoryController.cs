@@ -16,7 +16,7 @@ namespace MyFirstWebApp.Controllers
         public IActionResult Index()
         {
             List<Category> objCategoryList = _db.Catagories.ToList();
-            return View();
+            return View(objCategoryList);
         }
     }
 }
