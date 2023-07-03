@@ -18,6 +18,10 @@ namespace MyFirstWebApp.Controllers
             List<Category> objCategoryList = _db.Catagories.ToList();
             return View(objCategoryList);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
 
