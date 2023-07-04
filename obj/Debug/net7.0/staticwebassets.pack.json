@@ -229,6 +229,10 @@
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
+      "Id": "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/wwwroot/lib/jquery/.DS_Store",
+      "PackagePath": "staticwebassets/lib/jquery/.DS_Store"
+    },
+    {
       "Id": "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },

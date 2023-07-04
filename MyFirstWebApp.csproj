@@ -26,4 +26,9 @@
     <Folder Include="Migrations\" />
     <Folder Include="Views\Category\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\lib\jquery\dist\jquery.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

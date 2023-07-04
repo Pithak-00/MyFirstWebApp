@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yijr2S54V5bAQaJmz4k+8M8bhkMEQpa++AMnR0j6Pig=",
+  "Hash": "L4tVl9/PPzRdR6L11IYqaSJt18by0AC7CTPnFFEAQeU=",
   "Source": "MyFirstWebApp",
   "BasePath": "_content/MyFirstWebApp",
   "Mode": "Default",
@@ -1003,6 +1003,23 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
+      "Identity": "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/wwwroot/lib/jquery/.DS_Store",
+      "SourceId": "MyFirstWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/wwwroot/",
+      "BasePath": "_content/MyFirstWebApp",
+      "RelativePath": "lib/jquery/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery/.DS_Store"
+    },
+    {
       "Identity": "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "MyFirstWebApp",
       "SourceType": "Discovered",
@@ -1015,7 +1032,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
