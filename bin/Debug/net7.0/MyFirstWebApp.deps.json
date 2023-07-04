@@ -10,7 +10,10 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.8",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.8"
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.8",
+          "MyFirst.DataAccess": "1.0.0",
+          "MyFirst.Models": "1.0.0",
+          "MyFirst.Utility": "1.0.0"
         },
         "runtime": {
           "MyFirstWebApp.dll": {}
@@ -612,6 +615,27 @@
             "fileVersion": "5.0.20.51904"
           }
         }
+      },
+      "MyFirst.DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.8",
+          "MyFirst.Models": "1.0.0",
+          "MyFirst.Utility": "1.0.0"
+        },
+        "runtime": {
+          "MyFirst.DataAccess.dll": {}
+        }
+      },
+      "MyFirst.Models/1.0.0": {
+        "runtime": {
+          "MyFirst.Models.dll": {}
+        }
+      },
+      "MyFirst.Utility/1.0.0": {
+        "runtime": {
+          "MyFirst.Utility.dll": {}
+        }
       }
     }
   },
@@ -1089,6 +1113,21 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "MyFirst.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyFirst.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyFirst.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

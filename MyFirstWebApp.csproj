@@ -17,18 +17,25 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Data\" />
-    <None Remove="Migrations\" />
     <None Remove="Views\Category\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Migrations\" />
     <Folder Include="Views\Category\" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="wwwroot\lib\jquery\dist\jquery.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\My.DataAccess\MyFirst.DataAccess.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\My.Models\MyFirst.Models.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\My.Utility\MyFirst.Utility.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

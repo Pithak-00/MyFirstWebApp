@@ -74,3 +74,9 @@
 /Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
 /Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/obj/Debug/net7.0/MyFirstWebApp.csproj.CopyComplete
 /Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/bin/Debug/net7.0/wwwroot/lib/jquery/dist/jquery.js
+/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/bin/Debug/net7.0/MyFirst.DataAccess.dll
+/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/bin/Debug/net7.0/MyFirst.Models.dll
+/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/bin/Debug/net7.0/MyFirst.Utility.dll
+/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/bin/Debug/net7.0/MyFirst.DataAccess.pdb
+/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/bin/Debug/net7.0/MyFirst.Models.pdb
+/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/MyFirstWebApp/bin/Debug/net7.0/MyFirst.Utility.pdb

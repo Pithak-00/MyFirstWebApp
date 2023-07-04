@@ -1132,6 +1132,42 @@
             "rid": "win"
           }
         }
+      },
+      "MyFirst.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.8",
+          "MyFirst.Models": "1.0.0",
+          "MyFirst.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyFirst.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyFirst.DataAccess.dll": {}
+        }
+      },
+      "MyFirst.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyFirst.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyFirst.Models.dll": {}
+        }
+      },
+      "MyFirst.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyFirst.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyFirst.Utility.dll": {}
+        }
       }
     }
   },
@@ -3452,13 +3488,31 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MyFirst.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../My.DataAccess/MyFirst.DataAccess.csproj",
+      "msbuildProject": "../My.DataAccess/MyFirst.DataAccess.csproj"
+    },
+    "MyFirst.Models/1.0.0": {
+      "type": "project",
+      "path": "../My.Models/MyFirst.Models.csproj",
+      "msbuildProject": "../My.Models/MyFirst.Models.csproj"
+    },
+    "MyFirst.Utility/1.0.0": {
+      "type": "project",
+      "path": "../My.Utility/MyFirst.Utility.csproj",
+      "msbuildProject": "../My.Utility/MyFirst.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.8"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.8",
+      "MyFirst.DataAccess >= 1.0.0",
+      "MyFirst.Models >= 1.0.0",
+      "MyFirst.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3486,7 +3540,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/My.DataAccess/MyFirst.DataAccess.csproj": {
+              "projectPath": "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/My.DataAccess/MyFirst.DataAccess.csproj"
+            },
+            "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/My.Models/MyFirst.Models.csproj": {
+              "projectPath": "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/My.Models/MyFirst.Models.csproj"
+            },
+            "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/My.Utility/MyFirst.Utility.csproj": {
+              "projectPath": "/Users/pithaklikit/Desktop/Web/01/MyFirstWebApp/My.Utility/MyFirst.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
